@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- comm -->
+    <string name="app_name">templetname</string>
+    <string name="network_error">当前无网络，请检查网络连接</string>
+    <string name="isloading">正在加载...</string>
+
+    <!-- 文件保存路径 -->
+    <string name="saveDataPathRoot">/lianwo/</string>
+    <string name="saveDataPathAPK">apk/</string>
+
+    <!-- commxlistView -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal"> 上拉查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- commdialog -->
+    <string name="dialog_title">提示</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="opennetsetting">当前无网络，请设置网络。</string>
+    <string name="opennetsetting_title">开启网络</string>
+    <!-- 版本检测 -->
+    <string name="download">下载</string>
+    <string name="isNewVersion">当前已是最新版本</string>
+    <string name="newversion_find_info">发现最新版本，是否更新？</string>
+    <string name="nofreespace">sd卡空间不足</string>
+    <string name="sdcard_nouse">sd不可用</string>
+    <string name="downloadfail">下载失败</string>
+    <!-- commexception -->
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="xml_parser_failed">数据解析异常</string>
+    <string name="io_exception_error">文件流异常</string>
+    <string name="http_status_code_error">网络异常，错误码：</string>
+    <string name="http_exception_error">网络异常，请求超时</string>
+    <string name="socket_exception_error">网络异常，读取数据超时</string>
+    <string name="app_run_code_error">应用程序运行时异常</string>
+
+</resources>

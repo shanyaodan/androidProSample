@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F0F0F0"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/comm_color" />
+
+    <TextView
+        android:id="@+id/alertTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <!--  -->
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/contenttv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:maxHeight="250dp"
+            android:scrollbars="vertical"
+            android:textColor="#6a6a6a"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/dialog_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/okbut"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setting_menu_item_selector"
+            android:gravity="center"
+            android:text="@string/dialog_ok"
+            android:textColor="#343434"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/divimg"
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:background="@color/dialog_line" />
+
+        <Button
+            android:id="@+id/canclebut"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/setting_menu_item_selector"
+            android:gravity="center"
+            android:text="@string/dialog_cancel"
+            android:textColor="#343434"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

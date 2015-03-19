@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- comm -->
+    <color name="comm_color">#E3393A</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <!-- dialog -->
+    <color name="dialog_line">#d7d7d7</color>
+    <color name="setting_menu_item_click_color">#f5f5f5</color>
+
+</resources>

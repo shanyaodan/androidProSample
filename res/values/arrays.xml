@@ -1,0 +1,12 @@
+<resources>
+
+    <string-array name="errormessages">
+        <item>系统错误</item>
+        <item>数据库错误</item>
+        <item>缺少业务参数</item>
+        <item>缺少指令参数</item>
+        <item>指令参数错误</item>
+        <item>找不到API指令</item>
+    </string-array>
+
+</resources>
