@@ -26,17 +26,14 @@ public class MainActivity extends BaseActivity {
 		public void dispatchMessage(android.os.Message msg) {
 			L.v(TAG, "dispatchMessage", msg.what);
 			switch (msg.what) {
-
 			case API.REQUEST_NO_NETWORK:
 				CommonUtils.showToast(R.string.network_error);
 				break;
 			case API.REQUEST_BEGIN:
-
 				break;
 			case CHECK_VERSION:
 				showWaiting();
 				break;
-
 			case API.REQUEST_SUCCESS:
 				if (msg.arg1 == CHECK_VERSION) {
 					if (null == (BaseEntity) msg.obj) {
@@ -103,7 +100,6 @@ public class MainActivity extends BaseActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
 		checkVersion();
 	}
 

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="ssl_certificate_error">Invalid SSL certificate</string>
+    <string name="ssl_certificate_ask_trust">If you usually connect to this site without problems, this error could mean that someone is trying to impersonate the site, and you shouldn\'t continue. Would you like to trust the certificate anyway?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ssl_certificate_details">Details</string>
     <!-- comm -->
     <string name="app_name">templetname</string>
     <string name="network_error">当前无网络，请检查网络连接</string>

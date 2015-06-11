@@ -73,11 +73,9 @@ public class FragmentProductXlistViewController implements IXListViewListener {
 		}
 
 	}
-
 	public void setLoadState(boolean b) {
 		isLoading = b;
 	}
-
 	public void stopLoad(String sign) {
 		mXListView.stopLoadMore();
 		mXListView.stopRefresh();

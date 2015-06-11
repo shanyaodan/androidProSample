@@ -2,7 +2,6 @@ package com.example.sampleandroid.biz;
 
 import java.util.ArrayList;
 
-import android.os.Bundle;
 import android.os.Handler;
 import android.text.TextUtils;
 import android.view.View;
